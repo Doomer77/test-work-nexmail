@@ -1,0 +1,26 @@
+@font-face{
+  font-family: 'SFUIDisplay-Regular';
+  src: url('../../../font/SFUIDisplay.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn {
+  position: relative;
+  width: 125px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 14px;
+  color: #fff;
+  background-color: #00B96E;
+  border: 1px solid #979797;
+  border-radius: 100px;
+  box-shadow: 0 0 15px rgba(7, 156, 95, 0.30);
+  outline: none;
+  cursor: pointer;
+}
+.btn--icon {
+  display: block;
+}

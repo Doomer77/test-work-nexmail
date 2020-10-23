@@ -1,0 +1,27 @@
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #379AFF;
+}
+.app{
+  width: 1091px;
+  height: 796px;
+  margin: 114px 174px;
+  border: 1px solid #979797;
+  background-color: #fff;
+  box-shadow: 0 1px 16px 2px rgba(0, 0, 0, 0.31);
+  border-radius: 4px;
+}
