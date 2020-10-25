@@ -1,0 +1,21 @@
+.navigation-item{
+  margin-bottom: 19px;
+}
+
+.navigation-item__link{
+  display: flex;
+  font-size: 13px;
+  text-decoration: none;
+  color: #8E8E93;
+}
+
+.navigation-item__icon{
+  margin-right: 10px;
+}
+
+.active{
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  color: #4C4F59;
+}

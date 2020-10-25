@@ -1,4 +1,24 @@
 .navigation{
   width: 202px;
   height: 597px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.navigation__title{
+  margin-bottom: 18px;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #8F929D;
+}
+.navigation-list{
+  list-style: none;
+}
+
+.navigation__hr{
+  border: none;
+  border: 1px solid #D8D8D8;
+  height: 1px;
 }

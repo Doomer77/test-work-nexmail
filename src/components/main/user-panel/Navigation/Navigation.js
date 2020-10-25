@@ -6,7 +6,10 @@ const Navigation = ({ title, children }) => {
   return (
     <div className="navigation">
       <h2 className="navigation__title">{title}</h2>
-      {children}
+      <ul className="navigation-list">
+        {children}
+      </ul>
+      <hr className="navigation__hr"/>
     </div>
   );
 };
