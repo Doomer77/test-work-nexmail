@@ -1,4 +1,4 @@
-import icon from '../../../img/Shape.png';
+import icon from '../../../../img/Shape.png';
 export const navConf = [
   {
     name: 'Inbox',

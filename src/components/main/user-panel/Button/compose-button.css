@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'SFUIDisplay-Regular';
-  src: url('../../../font/SFUIDisplay.ttf');
+  src: url('../../../../font/SFUIDisplay.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,6 +21,6 @@
   outline: none;
   cursor: pointer;
 }
-.btn--icon {
+.btn__icon {
   display: block;
 }

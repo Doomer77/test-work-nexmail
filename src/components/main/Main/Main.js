@@ -1,7 +1,7 @@
 import React from 'react';
-import UserPanel from '../UserPanel';
-import MailBox from '../MailBox';
-import MailInfo from '../MailInfo';
+import UserPanel from '../user-panel/UserPanel';
+import MailBox from '../mail-box/MailBox';
+import MailInfo from '../mail-info/MailInfo';
 
 
 import './main.css';

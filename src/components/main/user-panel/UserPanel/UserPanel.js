@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from '../Button';
-import Navigation from '../Navigation';
-import shape from '../../../img/Shape.png';
+import Button from '../../user-panel/Button';  
+import Navigation from '../../user-panel/Navigation';
+import shape from '../../../../img/Shape.png';
 import {navConf} from './config';
-import NavItem from '../NavItem';
+import NavItem from '../../user-panel/NavItem';
 
 import './user-panel.css';
 

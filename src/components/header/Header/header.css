@@ -15,7 +15,7 @@
   height: 12px;
 }
 
-.logo-box{
+.header__logo{
   display: flex;
   align-items: center;
   margin-left: 407px;

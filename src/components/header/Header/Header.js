@@ -1,6 +1,6 @@
 import React from 'react';
 import WindowControoler from '../WindowController'; 
-import src1 from '../../img/Bitmap.png';
+import logoImg from '../../../img/Bitmap.png';
 
 import './header.css';
 
@@ -11,8 +11,8 @@ const Header = () => {
       <div className="controllers-box">
         <WindowControoler />
       </div>
-      <div className="logo-box">
-        <img src={src1} alt="nextmail" />
+      <div className="header__logo">
+        <img src={logoImg} alt="nextmail" />
       </div>
     </header>
   )

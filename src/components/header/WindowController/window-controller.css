@@ -1,25 +1,25 @@
-.controller{
+.controller-box__item{
   width: 12px;
   height: 12px;
   display: block;
   border-radius: 50%;
 }
 
-.controller:not(:first-child){
+.controller-box__item:not(:first-child){
   margin-left: 10px;
 }
 
-.controller--red{
+.controller-box__item--red{
   background-color: #FF6052;
   border: 1px solid #E43C2F;
 }
 
-.controller--yellow{
+.controller-box__item--yellow{
   background-color: #FFC107;
   border: 1px solid #E29E00;
 }
 
-.controller--green{
+.controller-box__item--green{
   background-color: #15CC35;
   border: 1px solid #00AD1B;
 }
